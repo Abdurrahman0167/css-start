@@ -1,0 +1,48 @@
+
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+div{
+      min-width: 350px;
+      min-height: 100px;
+}
+
+.container{
+      margin: 6%;
+      width: 30vw;
+      height: 50vh;
+      background: linear-gradient(216deg, rgba(65,12,109, .8) 16%, rgba(198,0,0, .7) 95%), url(../img/see.jpg); 
+      background-size: cover;
+}
+
+.p{
+      color: white;
+      font-size: 32px;
+      opacity: 0;
+      text-align: center;
+      padding: 35% 0px;
+}
+
+.p::before{
+      content: "недостаточно быть хорошим нужно стать лучшим ";
+}
+
+.p::after{
+      content: " Абр.";
+      opacity: 0.6;
+}
+
+div :hover{
+      opacity: 1;
+}
+      
+div{
+      border-radius: 25px;
+}
+
+.p:active{
+      opacity: 1;
+}
